@@ -129,7 +129,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    #Displays statistics on the most popular stations and trip. 
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -154,7 +154,7 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    #Displays statistics on the total and average trip duration. 
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -183,7 +183,11 @@ def trip_duration_stats(df):
 
 
 def user_stats(df):
+<<<<<<< HEAD
     #Displays statistics on bikeshare users.
+=======
+    #Displays statistics on bikeshare users. 
+>>>>>>> documentation
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
@@ -241,6 +245,7 @@ def display_lists(df):
 
     print('-'*40)
 
+# main function 
 def main():
     while True:
         city, month, day = get_filters()
